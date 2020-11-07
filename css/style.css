@@ -1,0 +1,613 @@
+/*Google Font*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&family=Vollkorn&display=swap");
+
+/*allow include padding and border in an elemnts total width and height*/
+* {
+  box-sizing: border-box;
+}
+
+/*hide all the left and right extra space from header and section*/
+header,
+section {
+  overflow: hidden;
+}
+
+/*specify font family and the color*/
+:root {
+  --Lato-: "Lato", cursive;
+  --Open_Sans: "Open+Sans", cursive;
+  --Roboto: "Roboto", cursive;
+  --Vollkorn: "Vollkorn", cursive;
+  --light-black: #2e2c2caf;
+  --bggrandient: linear-gradient(to bottom, #607ae0f8, white);
+  --light-gray: rgba(255, 255, 255, 0877);
+}
+
+header a {
+  font-family: var(--Lato-);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+header {
+  background: rgb(129, 178, 252);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: rgb(129, 178, 252);
+  background-color: rgba(0, 0, 0, 0.411);
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.411);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 0.75;
+}
+
+header .nav-item:last-child {
+  padding-right: 7em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+  font-size: 1.5em;
+}
+
+header .navbar-brand {
+  padding-left: 3rem;
+  font-size: 1.5em;
+}
+
+header .navbar-brand {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+header .navbar-brand::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+header .navbar-brand:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+header .nav-link {
+  color: black;
+  display: inline-block;
+  position: relative;
+}
+
+header .nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.411);
+  color: white;
+  transition: 0.5s;
+
+}
+
+header .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  font-weight: 600;
+}
+
+header .nav-link:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+  font-family: var(--Roboto);
+  color: whitesmoke;
+}
+
+header .row .col-md-5 img {
+  width: 150%;
+  padding: 10.2vmin 1vmin;
+}
+
+header .container .col-md-7 h5 {
+  padding: 1vmin;
+  letter-spacing: 3px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 7.8vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+a.button3 {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid black;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  transition: all 0.15s;
+  background-color: #ffffff;
+}
+
+a.button3:hover {
+  color: #ffffff;
+  border-color: black;
+  background-color: rgba(0, 0, 0, 0.411);
+
+}
+
+a.button3:active {
+  color: #ffffff;
+  border-color: black;
+}
+
+/*section 1 */
+
+.section-1 {
+  padding: 20vmin 0;
+}
+
+.section-1 .row .col-md-6 .pray img {
+  opacity: 0.8;
+  border-radius: 0.2em;
+  width: 80%;
+}
+
+.section-1 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -15vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 10vmin 5vmin 15vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: var(--Lato-);
+  z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+a.button2 {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid black;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  transition: all 0.15s;
+  background-color: #ffffff;
+
+}
+
+a.button2:hover {
+  color: #ffffff;
+  border-color: black;
+  background-color: rgba(0, 0, 0, 0.411);
+
+}
+
+a.button2:active {
+  color: #ffffff;
+  border-color: black;
+}
+
+
+/*section 2*/
+
+.cover {
+  width: 100%;
+  height: 55vmin;
+  background: url("../assets/happy_clients.jpg");
+  background-repeat: no-repeat;
+  background-position: center -22rem;
+  background-size: 100%;
+  position: relative;
+}
+
+.cover .content {
+  background: rgb(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  padding-top: 19vmin;
+}
+
+.cover .content>h1 {
+  font-family: var(--Open_Sans);
+  font-size: 6vmin;
+  color: whitesmoke;
+}
+
+.cover .content>p {
+  font-family: var(--Open_Sans);
+  font-size: 2vmin;
+  color: #e5e5e5;
+}
+
+.numbers .rect {
+  position: relative;
+  z-index: 1;
+  background: white;
+  width: 18rem;
+  height: 12rem;
+  padding-top: 4.5vmin;
+  margin: 1rem;
+  border-radius: 1em;
+  box-shadow: 1px 2px 50px 0px rgb(190, 194, 247);
+}
+
+.numbers {
+  margin-top: -14vmin;
+}
+
+.numbers .rect h1 {
+  font-size: 5rem;
+  color: rgb(58, 58, 179);
+}
+
+.numbers .rect p {
+  font-family: var(--Open_Sans);
+}
+
+.services>h2 {
+  padding-top: 15vmin;
+  font-family: var(--Lato-);
+  text-transform: uppercase;
+  color: rgb(129, 178, 252);
+  padding-bottom: 0vmin;
+}
+
+.underline {
+  background-image: linear-gradient(rgb(129, 178, 252), rgb(129, 178, 252));
+  background-position: bottom center;
+  background-size: 80% 2px;
+  background-repeat: no-repeat;
+  padding-bottom: 25px;
+}
+
+.underline-style {
+  background-size: 60% 2px;
+  font-size: 5rem;
+}
+
+.services .cards .card {
+  width: 90rem;
+  margin: 10vmin;
+}
+
+.cards div {
+  padding: 0;
+  margin: 0;
+}
+
+.ovl {
+  opacity: 0;
+  transition: 0.75s;
+  font-size: 1.5rem;
+}
+
+.ovl:hover {
+  opacity: 1;
+  background: rgb(0, 0, 0, 0.8);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+
+.card-title {
+  font-size: 4rem;
+  font-family: var(--Roboto);
+}
+
+.card-text {
+  color: whitesmoke;
+  font-family: var(--Vollkorn);
+}
+
+a.button1 {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.15s;
+  background-color: black;
+}
+
+a.button1:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.600);
+
+}
+
+a.button1:active {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.services .cards .card img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* section 3 */
+
+.section-3 {
+  height: 185vmin;
+  margin-top: 15vmin;
+  background: rgb(129, 178, 252);
+}
+
+.section-3 .col-md-12>h1 {
+  padding: 2em 0 0.5em 0;
+  color: whitesmoke;
+  font-size: 6vmin;
+}
+
+.section-3 .col-md-12>p {
+  padding: 0 4;
+  padding-bottom: 2em;
+  color: var(--light-gray);
+  font-size: 3vmin;
+}
+
+.section-3 .google-play {
+  background: white;
+  display: inline-block;
+  border-radius: 3em;
+  padding: 2vmin 4.5vmin;
+  margin: 1em;
+}
+
+.section-3 .google-play h3 {
+  font-size: 4vmin;
+}
+
+.section-3 .google-play p {
+  font-size: 2vmin;
+}
+
+.section-4 .container h1 {
+  font-size: 6vmin;
+  padding-top: 14vmin;
+  padding-bottom: 3vmin;
+}
+
+.section-4 .team {
+  padding: 10vmin 4vmin;
+}
+
+.underline2 {
+  background-image: linear-gradient(rgb(129, 178, 252), rgb(129, 178, 252));
+  background-position: bottom center;
+  background-size: 80% 2px;
+  background-repeat: no-repeat;
+  padding-bottom: 25px;
+}
+
+.underline-style2 {
+  background-size: 70% 2px;
+  font-size: 1rem;
+}
+
+.section-4 .card {
+  width: 52rem;
+  margin-top: 10vmin;
+  background: rgb(199, 219, 252);
+}
+
+.section-4 .card .card-text {
+  padding: 0.5em;
+}
+
+.section-4 .card .card-body>a {
+  font-size: 1.5em;
+}
+
+.section-4 .card .card-body>p {
+  font-size: 1.5em;
+}
+
+/*Contact */
+
+.underline3 {
+  background-image: linear-gradient(rgb(129, 178, 252), rgb(129, 178, 252));
+  background-position: bottom center;
+  background-size: 80% 2px;
+  background-repeat: no-repeat;
+  padding-bottom: 15px;
+}
+
+.underline-style3 {
+  background-size: 70% 2px;
+  font-size: 4rem;
+}
+
+.contact {
+  padding-bottom: 15vmin;
+  margin: auto;
+}
+
+a.button4 {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid black;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  transition: all 0.15s;
+  background-color: #ffffff;
+}
+
+a.button4:hover {
+  color: #ffffff;
+  border-color: black;
+  background-color: rgb(129, 178, 252);
+
+}
+
+input.form-control {
+  border-color: black;
+
+}
+
+textarea.md-textarea {
+  border-color: black;
+}
+
+
+
+/* Footer */
+footer {
+  background: rgb(129, 178, 252);
+  padding-top: 10vmin;
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer half {
+  width: 50%;
+}
+
+footer p>span {
+  color: rgb(132, 255, 183)
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .fbutton {
+  background: rgb(132, 255, 183);
+  border: none !important;
+}
+
+footer .fbutton:hover {
+  background: rgb(183, 253, 212);
+}
+
+footer .column i {
+  color: rgb(132, 255, 183);
+}
+
+footer .column .fa-facebook:hover {
+  background: #3B5998;
+  color: white;
+}
+
+footer .column .fa-twitter:hover {
+  background: #55ACEE;
+  color: white;
+}
+
+
+footer .column .fa-youtube:hover {
+  background: #bb0000;
+  color: white;
+}
+
+footer .column .fa-instagram:hover {
+  background: #125688;
+  color: white;
+}
+
+.pptc1:hover {
+  opacity: 0.7;
+}
+
+.pptc2:hover {
+  opacity: 0.7;
+}
+
+
+
+/*Sticky class*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 9999;
+  transition: all 1s ease;
+}

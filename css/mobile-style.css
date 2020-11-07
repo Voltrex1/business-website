@@ -1,0 +1,185 @@
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+  .collapse {
+    font-size: 1.3vmin;
+  }
+
+  footer .column {
+    width: 150%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+
+  a.button2 {
+    width: 210px !important;
+  }
+
+  section-2 .cover {
+    background-position: -25vmin -10vmin;
+  }
+
+  .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+
+  .services h2 {
+    font-size: 1rem;
+  }
+
+  .underline {
+    font-size: 2rem;
+  }
+
+  .card-title {
+    font-size: 2rem;
+  }
+
+  .ovl {
+    font-size: 1rem;
+  }
+
+  .services .cards .card {
+    margin: 1.8rem;
+    margin-top: 5rem;
+  }
+
+  .section-3 {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+
+  .section-3 .row .col-md-6 {
+    text-align: center !important;
+  }
+
+  .section-3 .row h3 {
+    font-size: 3vmin;
+  }
+
+  .section-3 .google-play i {
+    font-size: 6vmin;
+  }
+
+  .section-4 .container h1 {
+    font-size: 2rem;
+  }
+
+  .section-4 .card {
+    width: 35rem;
+  }
+
+  .underline3 {
+    font-size: 3rem;
+  }
+
+  .contact {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    position: inherit;
+    resize: vertical;
+  }
+
+  footer .social {
+    padding-left: 0vmin;
+  }
+
+  footer .pptc1 {
+    font-size: 0.7rem;
+  }
+
+  footer .pptc2 {
+    font-size: 0.7rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .contact-us input[type="submit"] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  footer h4 {
+    padding: -2vmin;
+    font-size: 5vmin;
+  }
+
+  footer h1 {
+    font-size: 5vmin;
+    text-transform: inherit;
+  }
+
+  footer .column {
+    width: 210%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .cover .content h1 {
+    margin-top: -10vmin;
+    font-size: 5vmin;
+  }
+
+  .cover .content p {
+    font-size: 2.5vmin;
+    margin-top: 13vmin;
+  }
+
+  .cards div {
+    padding: 0;
+    margin: 0;
+  }
+
+  .col-md-3 {
+    font-size: 1rem;
+  }
+
+  .section-4 .card {
+    padding-right: 9rem;
+  }
+
+  .section-4 .carousel-inner {
+    width: 25rem;
+  }
+
+  footer .row .col-md-2 {
+    margin-top: 6vmin;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .section-4 .carousel-inner {
+    width: 22rem;
+  }
+
+  .section-4 .card {
+    padding-right: 12rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  header .navbar-brand {
+    padding-left: 0.5vmin;
+  }
+
+  .section-4 .carousel-inner {
+    width: 19rem;
+  }
+
+  .section-4 .card {
+    padding-right: 15rem;
+  }
+}
