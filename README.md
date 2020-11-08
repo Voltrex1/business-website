@@ -1,5 +1,5 @@
 # business-website
-> Simply website created with CSS, HTML, Javascript and PHP
+> Simple website created with CSS, HTML, Javascript and PHP
 
 ## Table of contents
 * [General info](#general-info)
