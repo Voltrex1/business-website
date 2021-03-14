@@ -22,7 +22,10 @@ Javascript
 PHP
 
 ## Setup
-Download files and open it as localhost or in visual studio code and then click go live
+1.Download files and open it as localhost using for example XAMPP. 
+2.In visual studio code using the extension "Live Server".
+3.Download files and open the file "index.html", which is in "src" folder.
+
 
 
 ## Status
