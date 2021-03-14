@@ -23,7 +23,9 @@ PHP
 
 ## Setup
 1.Download files and open it as localhost using for example XAMPP. 
+
 2.In visual studio code using the extension "Live Server".
+
 3.Download files and open the file "index.html", which is in "src" folder.
 
 
